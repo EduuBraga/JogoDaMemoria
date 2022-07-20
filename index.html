@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <script src="./assets/scripts/script.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+    </style>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <title>Jogo da Memória</title>
+</head>
+
+<body>
+    <header>
+        <h1>Jogo da Memória - The Walking Dead</h1>
+    </header>
+
+    <section class="container-tabuleiro">
+        <div id="tabuleiro"></div>
+    </section>
+
+    <footer>
+        <p>Crétido pixel-arts <a href="https://www.pinterest.com.mx/Got100spntwds8/" target="_blank">Jayden Flanagan</a></p>
+        <p>Criado e desenvolvido por Eduado Braga</p>
+        <div class="container-github">
+            <img src="./assets/images/logo-github.png" alt="github logo">
+            <a href="https://github.com/EduuBraga" target="_blank">GitHub</a>
+        </div>
+    </footer>
+
+    <div id="gameOver">
+        <div>
+            Parabéns, você finalizou o jogo.
+        </div>
+        <button id="restart" onclick="restart()">Jogue Novamente</button>
+    </div>
+
+    <script src="./assets/scripts/game.js"></script>
+</body>
+
+</html>
